@@ -1,0 +1,130 @@
+:root {
+  --negro: #000;
+  --blanco: #fff;
+  --amarillo: #ffd166;
+  --gris-oscuro: #333333;
+  --gris-claro: #cccccc;
+  --rosa: #ff6b6b;
+}
+
+/* Activacion de fuente */
+@font-face {
+  font-family: 'ravie';
+  src: url('../fonts/ravie.ttf') format('truetype');
+}
+
+body {
+  font-family: 'montserrat', sans-serif!important;
+}
+
+.navbar-brand img {
+  width: 70px;
+}
+
+.navbar {
+  background-color: var(--gris-oscuro)!important;
+}
+
+.navbar-collapse a {
+  color: var(--blanco);
+}
+.navbar-collapse a:hover {
+  color: var(--amarillo);
+}
+
+.bi-list {
+  color: var(--amarillo);
+  font-size: 30px;
+}
+
+.bi-search, .bi-person-circle, .bi-cart-fill {
+  color: var(--amarillo);
+  font-size: 30px;
+}
+
+/* Caja de búsqueda */
+.search-box {
+  margin-top: 5rem;
+}
+
+.search-box .btn {
+  padding: 0.4rem 0.8rem;
+}
+
+.search-box input:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--amarillo); /* Añade un borde amarillo suave al hacer clic */
+  border: 1px solid var(--amarillo);  /* Cambia el borde a amarillo */
+}
+
+#close-search i {
+  color: red; /* Cambia la "X" a rojo */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#close-search i:hover {
+  background-color: red;
+  color: var(--blanco); /* O un color rojo más oscuro al pasar el mouse */
+  font-weight: bold;
+}
+
+
+#close-search {
+  border: red;
+  padding: 0;
+}
+
+#close-search:hover {
+  border: none;
+  background-color: red;
+  color: var(--blanco);
+}
+
+#hero {
+  background-color: var(--gris-oscuro);
+    padding-top: 8rem;
+    padding-bottom: 5.1rem;
+    width: 100%;
+    margin: 0;
+}
+
+.logo-hero, .p-hero {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.p-hero {
+  color: var(--blanco);
+  text-align: justify;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.text-center {
+  text-align: center; /* Asegura que las imágenes estén centradas en sus columnas */
+}
+
+.btn-hero {
+  padding: 3px 35px;
+  background-color: var(--amarillo);
+  color: var(--blanco);
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 1px;
+  /* position: absolute;
+  top: 75%;
+  left: 66%;*/
+}
+
+

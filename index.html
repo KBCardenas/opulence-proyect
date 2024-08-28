@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opulence Shop</title>
+    <link rel="icon" type="image/png" href="./images/opulence-icon.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Estilos personalisados -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Fuente de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#page-top">
+                <img src="./images/opulence-logo.png" alt="opulence-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav m-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#features">New</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Mujer</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Hombre</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Niños</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Promos</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="search-icon"><i class="bi bi-search"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-cart-fill"></i></a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="search-box container px-5" id="searchBox" style="display: none;">
+        <div class="d-flex justify-content-between align-items-center mt-2">
+            <input type="text" class="form-control" placeholder="Buscar...">
+            <button class="btn btn-outline-secondary ms-2" id="close-search"><i class="bi bi-x-lg"></i></button>
+        </div>
+    </div>
+    
+
+     
+    <div class="container-fluid px-0">
+        <div id="hero" class="row align-items-center justify-content-center">
+            <div class="col-lg-6 text-center">
+                 <img class="logo-hero" src="./images/opulence-logo-hero.png" alt="">
+                 <p class="p-hero mt-5 ">Bienvenido a Opulence, donde la compra y venta
+                    de zapatos se transforma en una experiencia de lujo.
+                    Disfruta de un proceso fluido, cómodo y seguro, 
+                    diseñado para quienes buscan calidad y estilo 
+                    sin compromisos</p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img class="logo-hero" src="./images/oferta-nike.png" alt="">
+                <button class="btn-hero mt-1">Comprar</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Scritps -->
+    <script src="scripts.js"></script>
+</body>
+</html>
