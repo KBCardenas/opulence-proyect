@@ -148,6 +148,48 @@ body {
   color: var(--blanco);
 }
 
+/* Categorias destacadas */ 
+#categoriad-1 {
+  background-image: url("https://thumbs.dreamstime.com/b/calzado-cl%C3%A1sico-de-cuero-instalado-en-el-exterior-sobre-una-plancha-madera-jard%C3%ADn-vista-horizontal-imagen-largo-un-masculino-252752658.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#categoriad-2 {
+  background-image: url("https://plus.unsplash.com/premium_photo-1682435561654-20d84cef00eb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2hvZXN8ZW58MHx8MHx8fDA%3D");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#categoriad-3 {
+  background-image: url("https://previews.123rf.com/images/yommy8008/yommy80081601/yommy8008160100100/51522441-foto-horizontal-de-dos-zapatos-gastados-de-edad-muy-avanzada-con-la-superficie-da%C3%B1ada-y-cordones-de.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#categoriad-4 {
+  background-image: url("https://plus.unsplash.com/premium_photo-1663100769321-9eb8fe5a8e6b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNob2VzfGVufDB8fDB8fHww");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.categorias {
+  height: 300px;
+  color: var(--blanco);
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+@media (max-width: 570px) {
+  #hero {
+    padding: 40px 30px;
+  }
+}
+
 
 
 
