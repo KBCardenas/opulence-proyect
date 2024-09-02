@@ -135,13 +135,17 @@ body {
 }
 
 
-/* Estilos de Login */
+/* Estilos de Log in y Sing up */
 .btn-opu {
   background-color: var(--gris-claro);
 }
 
 .btn-opu:hover {
   background-color: var(--amarillo);
+}
+
+.title-login {
+  color: var(--blanco);
 }
 
 
