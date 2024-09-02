@@ -58,6 +58,12 @@ body {
   border: 1px solid var(--amarillo);  /* Cambia el borde a amarillo */
 }
 
+.i-opulence {
+  outline: none;
+  box-shadow: 0 0 5px var(--amarillo); /* Añade un borde amarillo suave al hacer clic */
+  border: 1px solid var(--amarillo);  /* Cambia el borde a amarillo */
+}
+
 #close-search i {
   color: red; /* Cambia la "X" a rojo */
   padding: 10px;
